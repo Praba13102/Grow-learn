@@ -11,7 +11,7 @@ import Login from "./Login";
 // };
 function App() {
   return (
-    <Router>
+    <Router  basename="/Grow-learn">
    
       <Routes>
         <Route path="/" element={<Banner />} />
